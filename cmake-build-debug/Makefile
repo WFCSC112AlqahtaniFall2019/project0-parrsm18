@@ -122,32 +122,59 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-main.obj: main.cpp.obj
+CMakeFiles/helloworld.obj: CMakeFiles/helloworld.cpp.obj
 
-.PHONY : main.obj
+.PHONY : CMakeFiles/helloworld.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+CMakeFiles/helloworld.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/helloworld.cpp.obj
+.PHONY : CMakeFiles/helloworld.cpp.obj
 
-main.i: main.cpp.i
+CMakeFiles/helloworld.i: CMakeFiles/helloworld.cpp.i
 
-.PHONY : main.i
+.PHONY : CMakeFiles/helloworld.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+CMakeFiles/helloworld.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/helloworld.cpp.i
+.PHONY : CMakeFiles/helloworld.cpp.i
 
-main.s: main.cpp.s
+CMakeFiles/helloworld.s: CMakeFiles/helloworld.cpp.s
 
-.PHONY : main.s
+.PHONY : CMakeFiles/helloworld.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+CMakeFiles/helloworld.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/helloworld.cpp.s
+.PHONY : CMakeFiles/helloworld.cpp.s
+
+CMakeFiles/steven.obj: CMakeFiles/steven.cpp.obj
+
+.PHONY : CMakeFiles/steven.obj
+
+# target to build an object file
+CMakeFiles/steven.cpp.obj:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/steven.cpp.obj
+.PHONY : CMakeFiles/steven.cpp.obj
+
+CMakeFiles/steven.i: CMakeFiles/steven.cpp.i
+
+.PHONY : CMakeFiles/steven.i
+
+# target to preprocess a source file
+CMakeFiles/steven.cpp.i:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/steven.cpp.i
+.PHONY : CMakeFiles/steven.cpp.i
+
+CMakeFiles/steven.s: CMakeFiles/steven.cpp.s
+
+.PHONY : CMakeFiles/steven.s
+
+# target to generate assembly for a file
+CMakeFiles/steven.cpp.s:
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/CMakeFiles/steven.cpp.s
+.PHONY : CMakeFiles/steven.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... untitled
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... CMakeFiles/helloworld.obj
+	@echo ... CMakeFiles/helloworld.i
+	@echo ... CMakeFiles/helloworld.s
+	@echo ... CMakeFiles/steven.obj
+	@echo ... CMakeFiles/steven.i
+	@echo ... CMakeFiles/steven.s
 .PHONY : help
 
 
